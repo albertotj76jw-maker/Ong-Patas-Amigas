@@ -1,0 +1,74 @@
+zbody {
+    font-family: Arial;
+    margin: 0;
+}
+
+header {
+    background: rgb(248, 250, 248);
+    color: rgb(25, 69, 26);
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#menu {
+    display: none;
+    flex-direction: column;
+    background: rgb(0, 0, 0);
+    position: absolute;
+    top: 50px;
+    right: 10px;
+}
+
+#menu a {
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.banner {
+    background: rgb(1, 118, 173);
+    padding: 50px;
+    text-align: center;
+}
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 50px;
+    margin-right: 10px;
+}
+
+.cards {
+    display: flex;
+    gap: 80px;
+}
+
+.card {
+    background: #eee;
+    padding: 20px;
+}
+
+.acoes button {
+    margin: 10px;
+    padding: 10px;
+}
+
+.galeria img {
+    width: 150px;
+    margin: 5px;
+}
+
+.acessibilidade {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+
+.contraste {
+    background: black;
+    color: white;
+}
+

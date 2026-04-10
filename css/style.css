@@ -1,14 +1,28 @@
-zbody {
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
     font-family: Arial;
     margin: 0;
 }
 
-header {
-    background: rgb(248, 250, 248);
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px 0;
+}
+
+.header {
+    background: rgb(255, 255, 255);
     color: rgb(25, 69, 26);
-    padding: 10px;
+    padding: 15px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 #menu {
@@ -27,7 +41,7 @@ header {
 }
 
 .banner {
-    background: rgb(1, 118, 173);
+    background: img('img.banner.png') center/cover;
     padding: 50px;
     text-align: center;
 }
